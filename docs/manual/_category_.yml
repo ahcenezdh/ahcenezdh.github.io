@@ -1,0 +1,10 @@
+position: 0 # float position is supported
+label: 'Manual'
+collapsible: true # make the category collapsible
+collapsed: false # keep the category open by default
+className: red
+link:
+  type: generated-index
+  title: 'Manual'
+customProps:
+  description: Manual for FiveM Client and FXServer
