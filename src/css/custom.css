@@ -44,10 +44,18 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* Body */
+body {
+  background-image: url('@site/src/img/backgroundicons.png');
+  background-size: 15%;
+}
+
 /* Header */
 
 nav.navbar {
+  height: inherit;
   padding-top: calc(1rem);
+  padding-bottom: calc(1rem);
 }
 
 /* Navbar */
@@ -110,6 +118,18 @@ nav.navbar {
 .alert--warning {
   --ifm-alert-background-color: rgba(255, 255, 0, 0.1);
   --ifm-alert-border-color: #ffcc00;
+}
+
+/* Docs Sidebar */
+
+.theme-doc-sidebar-container {
+  background-color: var(--ifm-background-color);
+}
+
+/* Docs Pagination Buttons */
+
+.pagination-nav__link {
+  background-color: var(--ifm-background-color);
 }
 
 /* Footer */
