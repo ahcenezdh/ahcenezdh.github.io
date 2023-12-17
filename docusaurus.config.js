@@ -43,20 +43,18 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: [
+            './src/css/custom.css',
+            './src/css/fonts.css',
+          ],
         },
       }),
     ],
@@ -74,27 +72,66 @@ const config = {
       navbar: {
         title: 'FiveM Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'FiveM Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
+            to: 'https://fivem.net',
+            label: 'Website',
+            position: 'right'
+          },
+          {
+            to: 'https://forum.cfx.re',
+            label: 'Forum',
+            position: 'right'
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'docsSideBar',
-            position: 'left',
-            label: 'Documentation',
+            position: 'right',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/ahcenezdh/ahcenezdh.github.io',
+            to: 'https://servers.fivem.net',
+            label: 'Servers',
+            position: 'right'
+          },
+          {
+            to: 'https://cookbook.fivem.net',
+            label: 'Cookbook',
+            position: 'right'
+          },
+          {
+            type: 'dropdown',
             label: 'GitHub',
             position: 'right',
+            items: [
+              {
+                to: 'https://github.com/citizenfx/fivem',
+                label: 'FiveM',
+              },
+              {
+                to: 'https://github.com/ahcenezdh/ahcenezdh.github.io',
+                label: 'Documentation',
+              },
+            ],
           },
+          {
+            to: 'https://fivem.net/terms',
+            label: 'Terms',
+            position: 'right'
+          },
+          {
+            to: 'https://patreon.com/fivem',
+            label: 'Patreon',
+            position: 'right'
+          }
         ],
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} FiveM Docs, Inc. Built with Docusaurus.`,
+        copyright: `FiveM&reg; is © 2016-${new Date().getFullYear()} by Cfx.re, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

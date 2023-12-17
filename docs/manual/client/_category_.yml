@@ -4,7 +4,7 @@ collapsible: true # make the category collapsible
 collapsed: false # keep the category open by default
 className: red
 link:
-  type: generated-index
-  title: 'Client Manual'
+  type: doc
+  id: client
 customProps:
   description: Manual for FiveM Client

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'rubikblack';
+    src: url('@site/src/fonts/rubik-black-webfont.woff2') format('woff2'),
+         url('@site/src/fonts/rubik-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubikblack_italic';
+    src: url('@site/src/fonts/rubik-blackitalic-webfont.woff2') format('woff2'),
+         url('@site/src/fonts/rubik-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubikbold';
+    src: url('@site/src/fonts/rubik-bold-webfont.woff2') format('woff2'),
+         url('@site/src/fonts/rubik-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubikbold_italic';
+    src: url('@site/src/fonts/rubik-bolditalic-webfont.woff2') format('woff2'),
+         url('@site/src/fonts/rubik-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubikitalic';
+    src: url('@site/src/fonts/rubik-italic-webfont.woff2') format('woff2'),
+         url('@site/src/fonts/rubik-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubiklight';
+    src: url('@site/src/fonts/rubik-light-webfont.woff2') format('woff2'),
+         url('@site/src/fonts/rubik-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubiklight_italic';
+    src: url('@site/src/fonts/rubik-lightitalic-webfont.woff2') format('woff2'),
+         url('@site/src/fonts/rubik-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubikmedium';
+    src: url('@site/src/fonts/rubik-medium-webfont.woff2') format('woff2'),
+         url('@site/src/fonts/rubik-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rubikregular';
+    src: url('@site/src/fonts/rubik-regular-webfont.woff2') format('woff2'),
+         url('@site/src/fonts/rubik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
