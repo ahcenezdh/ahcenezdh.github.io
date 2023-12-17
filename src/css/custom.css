@@ -45,14 +45,17 @@
 }
 
 /* Body */
-body {
+html.plugin-docs body {
   background-image: url('@site/src/img/backgroundicons.png');
   background-size: 15%;
+  height: max-content;
+  min-height: 100vh;
 }
 
 /* Header */
 
 nav.navbar {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
   height: inherit;
   padding-top: calc(1rem);
   padding-bottom: calc(1rem);
@@ -136,5 +139,6 @@ nav.navbar {
 
 footer.footer,
 footer.footer--dark {
-  --ifm-footer-background-color: var(--color-accent-2-a10);
+  --ifm-footer-background-color: transparent;
+  border-top: 1px solid var(--ifm-toc-border-color);
 }

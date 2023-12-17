@@ -42,7 +42,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: './docSidebar.js',
           routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -82,15 +82,18 @@ const config = {
             position: 'right'
           },
           {
-            to: 'https://forum.cfx.re',
-            label: 'Forum',
-            position: 'right'
+            type: 'docSidebar',
+            sidebarId: 'docsSideBar',
+            docsPluginId: 'default',
+            position: 'right',
+            label: 'Docs',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'docsSideBar',
+            sidebarId: 'manualSideBar',
+            docsPluginId: 'manual',
             position: 'right',
-            label: 'Docs',
+            label: 'Manual',
           },
           {
             to: 'https://servers.fivem.net',
@@ -131,13 +134,24 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `FiveM&reg; is © 2016-${new Date().getFullYear()} by Cfx.re, Inc. Built with Docusaurus.`,
+        copyright: `FiveM&reg; is &copy; 2016-${new Date().getFullYear()} by Cfx.re, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
     }),
+    plugins: [
+      [
+        '@docusaurus/plugin-content-docs',
+        {
+          id: 'manual',
+          path: 'manual',
+          routeBasePath: '/manual',
+          sidebarPath: require.resolve('./manualSidebar.js'),
+        },
+      ],
+    ],
 };
 
 export default config;
