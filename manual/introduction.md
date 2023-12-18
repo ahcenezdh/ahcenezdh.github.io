@@ -1,11 +1,10 @@
 ---
 sidebar_position: 0
-slug: /
 ---
 
 # Introduction
 
-Welcome to the documentation for the [FiveM](https://fivem.net) modification framework. Use the links below to find the information you're looking for.
+Welcome to the manual for the [FiveM](https://fivem.net) modification framework. Use the links below to find the information you're looking for.
 
 ## Server owners
 * Find out how to [start a server](./manual/server/index.mdx) on FiveM.
