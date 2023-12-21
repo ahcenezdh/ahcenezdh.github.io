@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfive_m_docs=self.webpackChunkfive_m_docs||[]).push([[195],{2841:(s,e,c)=>{c.r(e),c.d(e,{default:()=>o});c(7294);var t=c(2263),f=c(6550),n=c(5893);function o(){const{siteConfig:s}=(0,t.Z)();return(0,n.jsx)(f.l_,{to:"/docs"})}}}]);

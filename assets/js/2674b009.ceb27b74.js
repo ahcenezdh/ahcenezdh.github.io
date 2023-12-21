@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfive_m_docs=self.webpackChunkfive_m_docs||[]).push([[369],{3678:e=>{e.exports=JSON.parse('{"title":"Manual","slug":"/category/manual","permalink":"/docs/category/manual","navigation":{"previous":{"title":"Introduction","permalink":"/docs/"},"next":{"title":"Client","permalink":"/docs/category/client"}}}')}}]);
